@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flipkart</title>
+    <script type="text/javascript" src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body onload=fetchData()>
+    <header>
+        <div class="input-container">
+            <input class="input-box" type="text" id="pinInput" placeholder="Enter Pincode"
+                onkeyup=debouncefilterPincodes(this)>
+        </div>
+    </header>
+    <main>
+        <div id="container"></div>
+    </main>
+</body>
+
+</html>

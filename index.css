@@ -1,0 +1,42 @@
+.widget {
+    display: inline-block;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 20px;
+}
+
+main > #container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.widget-container {
+    display: flex;
+    width: 100%;
+}
+.input-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #62afff;
+}
+.input-container > .input-box {
+    max-width: 300px;
+    width: 70%;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+
+}
+.border {
+    border: 2px solid black;
+}
